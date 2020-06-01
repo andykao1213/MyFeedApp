@@ -7,13 +7,11 @@ import { User } from "../page/User";
 
 export const RootRouter: React.FC = () => {
 	return (
-		<BrowserRouter>
-			<Switch>
-				<Route path="/login" component={Login} />
-				<Route path="/signup" component={SignUp} />
-				<Route path="/user" component={User} />
-				<Route path="/" component={Home} />
-			</Switch>
-		</BrowserRouter>
+		<Switch>
+			<Route path="/login" component={Login} />
+			<Route path="/signup" component={SignUp} />
+			<Route path="/user" component={User} />
+			<Route path="/" component={Home} />
+		</Switch>
 	);
 };
