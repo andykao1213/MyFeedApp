@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Post } from "../components/Post";
+
 export const Home: React.FC = () => {
-	return <h1>Home</h1>;
+	return <Post />;
 };
